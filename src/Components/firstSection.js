@@ -16,7 +16,7 @@ export default function FirstSection() {
                             <div className="backRight"></div>
                             <div className="mainImage overflow-hidden" >
                                     {/* <img src="./assests/img/gallery/bals_cropped_2_ai_enhance-removebg.png" className="img-fluid"  /> */}
-                                    <img src="./assests/img/gallery/balaji_new.jpg" className="img-fluid"  />
+                                    <img src="./assests/img/gallery/balaji_new2.jpg" className="img-fluid"  />
                             </div>
                         </div>
                         <div className="col-xl-7 col-sm-12 mainDetails">
