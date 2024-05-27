@@ -9,9 +9,9 @@ export default function Doing(){
                 <div className="col-xl-2 col-0"></div>
                 <div className="col-xl-8 col-12 ">
                     <div className="whatImdoingBox bg_violet">
-                        <p className="whatImdoing p-xl-5 p-3 mb-0 fw-light">Turning ideas into interactive and user-friendly digital experiences.
+                        <p className="whatImdoing p-xl-5 p-3 mb-0 fw-light">Turning ideas into <span className="main_color">interactive</span> and <span className="main_color">user-friendly</span>  digital experiences.
                             Let's collaborate to elevate your web presence and engage your audience with 
-                            cutting-edge design and functionality.</p>
+                            <span className="main_color"> cutting-edge design</span> and <span className="main_color">functionality</span>.</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-0"></div>

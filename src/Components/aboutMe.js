@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import BalajiResume from '../assets/data/balaji_resume_dp_27_05.pdf';
 export default function AboutMe(){
     const openPDF = () => {
         // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
-        const pdfPath = './assests/data/Balaji_resume_13_12.pdf';
-        window.open(pdfPath, '_blank');
+        const pdfPath = './assests/data/balaji_resume_dp_27_05.pdf';
+        window.open(BalajiResume, '_blank');
       };
     return(
         <section className="mb-xl-5 mb-4 py-md-5 py-4">
@@ -18,10 +19,8 @@ export default function AboutMe(){
                 <div className="col-xl-2 col-0"></div>
                 <div className="col-xl-8 col-12">
                     <div className="aboutContents bg_violet p-xl-5 p-3">
-                        <p className="aboutPara fw-light"> Hello, I'm Balaji K, a passionate Frontend Developer from Neyveli, India. Currently in my Final year pursuing a
-                             Bachelor's degree in Computer Science at IFET College of Engineering, Vilupuram. </p>
-                        <p className="aboutPara mb-0 fw-light">  Proficient in designing and maintaining responsive websites for a seamless user experience. My expertise lies in crafting dynamic, engaging interfaces through clean 
-                            and optimized code, utilizing cutting-edge development tools and techniques.</p>
+                        <p className="aboutPara fw-light"> Hello, I'm <span className="main_color">Balaji K</span>, a passionate <span className="main_color">Web Developer</span> from Neyveli, India. I have completed a Bachelor's degree in <span className="main_color">Computer Science and Engineering</span> at IFET College of Engineering, Vilupuram. </p>
+                        <p className="aboutPara mb-0 fw-light"> As a <span className="main_color">full stack developer</span>, my expertise lies in crafting both frontend and backend solutions for web applications. I am dedicated to <span className="main_color">designing</span> and maintaining  <span className="main_color">responsive websites</span>, prioritizing exceptional  <span className="main_color">user experiences</span> , and writing  <span className="main_color">optimized code</span>.</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-0"></div>

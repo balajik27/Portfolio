@@ -1,0 +1,64 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap"); */
+
+/* body {
+    overflow-x: hidden;
+} */
+
+.projectList {
+    display: flex;
+    overflow-x: auto;
+}
+@media (min-width: 800px) {
+    .projectList {
+        overflow: visible;
+    }
+}
+.experienceProjectBox {
+    width: 400px;
+    min-width: 250px;
+    border-radius: 16px;
+    background: #17141d;
+    /* card stack effect */
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.3s;
+}
+
+
+
+/*
+    STYLING THE SCROLLBAR
+*/
+.projectList::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+}
+.projectList::-webkit-scrollbar-thumb {
+    background: #5f5eb9;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.projectList::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+}
+
+/*
+    CARD HOVER ANIMATION
+*/
+.experienceProjectBox:hover {
+    transform: translateY(-1rem);
+}
+/* all siblings after the hovered element */
+.experienceProjectBox:hover ~ .card {
+    transform: translateX(40px);
+}
+.experienceProjectBox:not(:first-child) {
+    margin-left: -40px;
+}
+
+
+
+
+.nanlogicalLogo:hover{
+    transform: scale(1.15);
+}
