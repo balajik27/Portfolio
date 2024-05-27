@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2d4bba0c.css",
-    "main.js": "/Portfolio/static/js/main.53ca9ef3.js",
+    "main.css": "/Portfolio/static/css/main.dd6b4fc6.css",
+    "main.js": "/Portfolio/static/js/main.ba9f863c.js",
+    "static/media/techbiz_md.png": "/Portfolio/static/media/techbiz_md.40391b95e6507286a4f9.png",
+    "static/media/jamoo_md.png": "/Portfolio/static/media/jamoo_md.615ad514476d56fd31f5.png",
+    "static/media/converta_md.png": "/Portfolio/static/media/converta_md.83b977e44e6b088bbd71.png",
+    "static/media/balaji_resume_dp_27_05.pdf": "/Portfolio/static/media/balaji_resume_dp_27_05.3e291c671790d299d0c6.pdf",
+    "static/media/nanlogical_md.png": "/Portfolio/static/media/nanlogical_md.b63f763f206bb4286666.png",
+    "static/media/eshopify_md.png": "/Portfolio/static/media/eshopify_md.61d953bdf9b0dbe76e4f.png",
     "index.html": "/Portfolio/index.html",
-    "main.2d4bba0c.css.map": "/Portfolio/static/css/main.2d4bba0c.css.map",
-    "main.53ca9ef3.js.map": "/Portfolio/static/js/main.53ca9ef3.js.map"
+    "main.dd6b4fc6.css.map": "/Portfolio/static/css/main.dd6b4fc6.css.map",
+    "main.ba9f863c.js.map": "/Portfolio/static/js/main.ba9f863c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d4bba0c.css",
-    "static/js/main.53ca9ef3.js"
+    "static/css/main.dd6b4fc6.css",
+    "static/js/main.ba9f863c.js"
   ]
 }

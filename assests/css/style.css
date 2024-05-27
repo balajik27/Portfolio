@@ -25,7 +25,13 @@ body{
     height: 80px;
     width: 8px;
 }
-
+.main_color{
+    color: rgb(132, 77, 231);
+    /* background: linear-gradient(to right,  #ff6b08, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    font-weight: normal;
+}
 /* https://codepen.io/amirbaig_87/pen/GRJKpXv */
 /* https://codepen.io/tag/animated-background?cursor=ZD0xJm89MCZwPTE= */
 
@@ -502,7 +508,17 @@ outline: none;
 /* --------------------------------- */
 
 
+.vertical_slide{
+    height: 300px;
+}
 
+.experienceContents{
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); */
+    border-radius: 20px;
+    background: rgb(23, 23, 33);
+    border: 0.1px solid rgb(132, 77, 231);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
 
 
 
@@ -550,6 +566,22 @@ outline: none;
         margin-right: 8px;
         
     }
+
+    .experienceHeading::after {
+        height: 1px;
+        width: 28px;
+        margin-left: 8px;
+        margin-bottom: 9px;
+    }
+
+    .experienceHeading::before {
+        height: 1px;
+        width: 28px;
+        margin-right: 7px;
+        margin-bottom: 9px;
+    }
+
+    
     .whatDoingHeading::after{
         height: 1px;
         width: 25px;
