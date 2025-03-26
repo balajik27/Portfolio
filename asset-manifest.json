@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.dd6b4fc6.css",
-    "main.js": "/Portfolio/static/js/main.ba9f863c.js",
+    "main.js": "/Portfolio/static/js/main.93b04422.js",
     "static/media/techbiz_md.png": "/Portfolio/static/media/techbiz_md.40391b95e6507286a4f9.png",
     "static/media/jamoo_md.png": "/Portfolio/static/media/jamoo_md.615ad514476d56fd31f5.png",
     "static/media/converta_md.png": "/Portfolio/static/media/converta_md.83b977e44e6b088bbd71.png",
-    "static/media/balaji_resume_dp_27_05.pdf": "/Portfolio/static/media/balaji_resume_dp_27_05.3e291c671790d299d0c6.pdf",
     "static/media/nanlogical_md.png": "/Portfolio/static/media/nanlogical_md.b63f763f206bb4286666.png",
     "static/media/eshopify_md.png": "/Portfolio/static/media/eshopify_md.61d953bdf9b0dbe76e4f.png",
+    "static/media/Balaji_K_Full_Stack_Developer_MERN_2025.pdf": "/Portfolio/static/media/Balaji_K_Full_Stack_Developer_MERN_2025.9bdbcd4188ffdb6f8183.pdf",
+    "static/media/ensureSafeLogo.png": "/Portfolio/static/media/ensureSafeLogo.d96771d67f36ce56d280.png",
     "index.html": "/Portfolio/index.html",
     "main.dd6b4fc6.css.map": "/Portfolio/static/css/main.dd6b4fc6.css.map",
-    "main.ba9f863c.js.map": "/Portfolio/static/js/main.ba9f863c.js.map"
+    "main.93b04422.js.map": "/Portfolio/static/js/main.93b04422.js.map"
   },
   "entrypoints": [
     "static/css/main.dd6b4fc6.css",
-    "static/js/main.ba9f863c.js"
+    "static/js/main.93b04422.js"
   ]
 }
