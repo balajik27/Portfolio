@@ -112,7 +112,7 @@ export default function Contact(){
                         <h2 id="contact_heading" className="text-center heading">Contact Me</h2>
                         <div className="row py-5 ">
                             <div className="col-xl-5 col-12">
-                                <div className="d-flex align-items-center justify-content-start p-3 my-3 rounded dark_mode_bg_border" style={{gap: '14px'}}>
+                                {/* <div className="d-flex align-items-center justify-content-start p-3 my-3 rounded dark_mode_bg_border" style={{gap: '14px'}}>
                                     <div className="align-self-center" >
                                         <img src="./assests/img/svg/phone-call.png" style={{height : '40px' , width : '37px'}} alt=""/>
                                     </div>
@@ -120,7 +120,7 @@ export default function Contact(){
                                         <h4 className="m-0">Call Me</h4>
                                         <p className="m-0">+91 9080022621</p>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="d-flex align-items-center justify-content-start  p-3 my-3 rounded dark_mode_bg_border" style={{gap: '14px'}}>
                                     <div className="align-self-start">
                                         <img src="./assests/img/svg/message.png"  style={{height : '40px' , width : '36px'}} alt=""/>

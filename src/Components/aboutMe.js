@@ -6,7 +6,8 @@ export default function AboutMe(){
     const openPDF = () => {
         // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
         // const pdfPath = './assests/data/balaji_resume_dp_27_05.pdf';
-        const pdfPath = './assests/data/Balaji_K_Full_Stack_Developer_MERN_2025.pdf';
+        // const pdfPath = './assests/data/Balaji_K_Full_Stack_Developer_MERN_2025.pdf';
+        const pdfPath = './assests/data/Balaji_Full_Stack_Mern_2025.pdf';
         window.open(BalajiResume, '_blank');
       };
     return(
