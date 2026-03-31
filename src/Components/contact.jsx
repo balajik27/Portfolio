@@ -4,6 +4,10 @@ import emailjs from '@emailjs/browser';
 
 import { ToastContainer, toast , Bounce} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+import messageIcon from '../assets/img/svg/message.png';
+import locationIcon from '../assets/img/svg/global-communication.png';
+
 export default function Contact(){
 
     const [name , setName] = useState('');
@@ -123,7 +127,7 @@ export default function Contact(){
                                 </div> */}
                                 <div className="d-flex align-items-center justify-content-start  p-3 my-3 rounded dark_mode_bg_border" style={{gap: '14px'}}>
                                     <div className="align-self-start">
-                                        <img src="./assests/img/svg/message.png"  style={{height : '40px' , width : '36px'}} alt=""/>
+                                        <img src={messageIcon}  style={{height : '40px' , width : '36px'}} alt=""/>
                                     </div>
                                     <div className="align-self-center">
                                         <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdHGvdcLVbVPQjbpWtVQNjdZGqFQwFVWXCXlQprKWtVCCqCpVbLRSDcHmdgbJpbcTZnjDCl" className="text-decoration-none" target="_blank">
@@ -134,7 +138,7 @@ export default function Contact(){
                                 </div>
                                 <div className="d-flex align-items-center justify-content-start  p-3 my-3 rounded dark_mode_bg_border" style={{gap: '14px'}}>
                                     <div className="align-self-start">
-                                        <img src="./assests/img/svg/global-communication.png"  style={{height : '40px' , width : '40px'}}  alt=""/>
+                                        <img src={locationIcon}  style={{height : '40px' , width : '40px'}}  alt=""/>
                                     </div>
                                     <div className="align-self-center">
                                         <h4 className="m-0">Location</h4>

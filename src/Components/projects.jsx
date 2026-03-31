@@ -1,4 +1,13 @@
-
+import githubColorIcon from '../assets/img/svg/github_color.svg';
+import liveDemoIcon from '../assets/img/svg/live_demo_color.svg';
+import registerImg from '../assets/img/Django/Register.png';
+import multiverseDesktopImg from '../assets/img/Multiverse/multiverse_desktop.png';
+import multiverseMobileImg from '../assets/img/Multiverse/multiverse_mobile_view_removebg_dark.png';
+import portfolioImg from '../assets/img/Portfolio/1.png';
+import cartDesktopImg from '../assets/img/AddProduct/cart_desktop.png';
+import productMobileImg from '../assets/img/AddProduct/product_mobile_view_bg_remove.png';
+import todoListImg from '../assets/img/ToDoList/1.png';
+import manImg from '../assets/img/man-removebg-preview.png';
 
 export default function Projects() {
     return (

@@ -1,5 +1,9 @@
-
 import Typewriter from 'typewriter-effect';
+import myProfile from '../assets/img/gallery/balaji_new_2.jpg';
+import gmailIcon from '../assets/img/svg/gmail_icon_new.svg';
+import linkedinIcon from '../assets/img/svg/linkedin_2_new.svg';
+import githubIcon from '../assets/img/svg/github_png_icon.png';
+import whatsappIcon from '../assets/img/svg/whatsapp.svg';
 
 export default function FirstSection() {
     new Typewriter('#typewriter', {
@@ -46,7 +50,7 @@ export default function FirstSection() {
                                         <div className="contactBoxLine"></div>
                                         <div className="contactbox">
                                             <a href="https://www.linkedin.com/in/balaji-k-programmer" target="_blank" >
-                                                <img className="img-fluid p-2" src="./assests/img/svg/linkedin_2_new.svg" title="LinkedIn" alt="" />
+                                                <img className="img-fluid p-2" src={linkedinIcon} title="LinkedIn" alt="" />
                                             </a>
                                         </div>
                                         <div className="contactBoxLine"></div>
