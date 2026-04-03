@@ -4,12 +4,9 @@ import gmailIcon from '../assets/img/svg/gmail_icon_new.svg';
 import linkedinIcon from '../assets/img/svg/linkedin_2_new.svg';
 import githubIcon from '../assets/img/svg/github_png_icon.png';
 import whatsappIcon from '../assets/img/svg/whatsapp.svg';
+import leetcodeIcon from '../assets/img/svg/leetcode.png';
 
 export default function FirstSection() {
-    new Typewriter('#typewriter', {
-        strings: ['Hello', 'World'],
-        autoStart: true,
-    });
     return (
         <>
             <section id="firstSection" className="clipPath ">
@@ -20,7 +17,7 @@ export default function FirstSection() {
                             <div className="backRight"></div>
                             <div className="mainImage overflow-hidden" >
                                     {/* <img src={bals_crop} className="img-fluid"  /> */}
-                                    <img src={myProfile} className="img-fluid"  />
+                                    <img src={myProfile} className="img-fluid" />
                             </div>
                         </div>
                         <div className="col-xl-7 col-sm-12 mainDetails">
@@ -31,14 +28,13 @@ export default function FirstSection() {
                             <div className="mainContents ps-xl-2 ps-0">
                                 <h3 className=" myName text-xl-start text-center fw-bolder" style={{ fontSize: '3rem' }}>Hi, I am </h3>
                                 <h1 className=" myName text-xl-start text-center fw-bolder"> Balaji</h1>
-                                <p className="frontEndDeveloper text-xl-start text-center fw-bold">I'm a
+                                <div className="frontEndDeveloper text-xl-start text-center fw-bold">I'm a
                                     <Typewriter  options={{
                                         strings: ['Software Engineer', 'Full Stack Developer', "Programmer"],
                                         autoStart: true,
                                         loop: true,
-                            
                                     }} />
-                                </p>
+                                </div>
                                 <p className="developerTagline text-xl-start text-center">Passionate Web Developer based in <br /> Neyveli, India.</p>
                             </div>
                             <div className="container">
@@ -64,6 +60,12 @@ export default function FirstSection() {
                                         <div className="contactbox" style={{height:'46px' , width : '46px'}}>
                                             <a href="https://api.whatsapp.com/send?phone=9080022621" target="_blank">
                                             <img className="img-fluid p-2" src={whatsappIcon} title="Whatsapp" alt="" />
+                                            </a>
+                                        </div>
+                                        <div className="contactBoxLine"></div>
+                                        <div className="contactbox" style={{height:'46px' , width : '46px'}}>
+                                            <a href="http://leetcode.com/balajik272003" target="_blank">
+                                            <img className="img-fluid p-2" src={leetcodeIcon} title="LeetCode" alt="" />
                                             </a>
                                         </div>
                                     </div>
