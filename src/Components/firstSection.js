@@ -15,8 +15,8 @@ export default function FirstSection() {
                             <div className="backLeft"></div>
                             <div className="backRight"></div>
                             <div className="mainImage overflow-hidden" >
-                                    {/* <img src="./assests/img/gallery/bals_cropped_2_ai_enhance-removebg.png" className="img-fluid"  /> */}
-                                    <img src="./assests/img/gallery/balaji_new_2.jpg" className="img-fluid"  />
+                                {/* <img src="./assests/img/gallery/bals_cropped_2_ai_enhance-removebg.png" className="img-fluid"  /> */}
+                                <img src="./assests/img/gallery/balaji_new_2.jpg" className="img-fluid" />
                             </div>
                         </div>
                         <div className="col-xl-7 col-sm-12 mainDetails">
@@ -28,11 +28,10 @@ export default function FirstSection() {
                                 <h3 className=" myName text-xl-start text-center fw-bolder" style={{ fontSize: '3rem' }}>Hi, I am </h3>
                                 <h1 className=" myName text-xl-start text-center fw-bolder"> Balaji</h1>
                                 <p className="frontEndDeveloper text-xl-start text-center fw-bold">I'm a
-                                    <Typewriter  options={{
-                                        strings: ['Front-end Developer', 'Programmer', 'Full Stack Developer'],
+                                    <Typewriter options={{
+                                        strings: ['Software Engineer', 'Full Stack Developer', 'Backend Developer', 'Programmer'],
                                         autoStart: true,
                                         loop: true,
-                            
                                     }} />
                                 </p>
                                 <p className="developerTagline text-xl-start text-center">Passionate Web Developer based in <br /> Neyveli, India.</p>
@@ -42,7 +41,7 @@ export default function FirstSection() {
                                     <div className="col-xl-2 col-12 fw-bold contact text-xl-start h3 text-center d-flex align-items-center">Contact</div>
                                     <div className="col-xl-5 col-12 pe-xl-4 ps-xl-0  px-4 contactInfo">
                                         <div className="contactbox">
-                                            <a  href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdHGvdcLVbVPQjbpWtVQNjdZGqFQwFVWXCXlQprKWtVCCqCpVbLRSDcHmdgbJpbcTZnjDCl" target="_blank"><img className="img-fluid p-2" src="./assests/img/svg/gmail_icon_new.svg" title="Gmail" alt="" /></a> 
+                                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdHGvdcLVbVPQjbpWtVQNjdZGqFQwFVWXCXlQprKWtVCCqCpVbLRSDcHmdgbJpbcTZnjDCl" target="_blank"><img className="img-fluid p-2" src="./assests/img/svg/gmail_icon_new.svg" title="Gmail" alt="" /></a>
                                         </div>
                                         <div className="contactBoxLine"></div>
                                         <div className="contactbox">
@@ -54,12 +53,12 @@ export default function FirstSection() {
                                         <div className="contactbox">
                                             <a href="https://github.com/balajik27" target="_blank">
                                                 <img className="img-fluid p-2 rounded-circle" src="./assests/img/svg/github_png_icon.png" title="Github" alt="" />
-                                            </a> 
+                                            </a>
                                         </div>
                                         <div className="contactBoxLine"></div>
-                                        <div className="contactbox" style={{height:'46px' , width : '46px'}}>
+                                        <div className="contactbox" style={{ height: '46px', width: '46px' }}>
                                             <a href="https://api.whatsapp.com/send?phone=9080022621" target="_blank">
-                                            <img className="img-fluid p-2" src="./assests/img/svg/whatsapp.svg" title="Whatsapp" alt="" />
+                                                <img className="img-fluid p-2" src="./assests/img/svg/whatsapp.svg" title="Whatsapp" alt="" />
                                             </a>
                                         </div>
                                     </div>
