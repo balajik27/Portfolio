@@ -32,7 +32,7 @@ export default function Projects(){
                                     <li>Designed wallet system to handle <strong>multiple wallets per user</strong>, ensuring correct balance tracking across currencies.</li>
                                     <li>Prevented <strong>race conditions and double spending</strong> using atomic DB updates and balance validation at the SQL level.</li>
                                     <li>Implemented <strong>idempotency keys and database constraints</strong> to guarantee safe retries and avoid duplicate transactions.</li>
-                                    <li>Structured as a <strong>modular monolith</strong>, with clear separation of User, Wallet, Transaction, Reward, and Notification services for future microservice migration.</li>
+                                    <li>Structured as a <strong>modular monolith</strong>, with clear separation of User, Wallet, Transaction for future microservice migration.</li>
                                 </ul>
                                 <div className="d-flex justify-content-center mt-3" style={{gap:'8px'}}>
                                     <a className="py-2 px-3 h5 rounded-pill text-decoration-none cursor_pointer project_btn_code_live_demo d-flex align-items-center" style={{gap:'8px'}} href="https://github.com/balajik27/payment-service-monolithic" target="_blank">Code <img src={githubColorIcon} className="rounded-circle" height="20px" width="20px" alt=""/></a>

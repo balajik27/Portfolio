@@ -1,5 +1,6 @@
 import Typewriter from 'typewriter-effect';
-import myProfile from '../assets/img/gallery/balaji_new_2.jpg';
+// import myProfile from '../assets/img/gallery/balaji_new_2.jpg';
+import myProfile from '../assets/img/gallery/Balaji_latest_portfolio.jpeg';
 import gmailIcon from '../assets/img/svg/gmail_icon_new.svg';
 import linkedinIcon from '../assets/img/svg/linkedin_2_new.svg';
 import githubIcon from '../assets/img/svg/github_png_icon.png';
